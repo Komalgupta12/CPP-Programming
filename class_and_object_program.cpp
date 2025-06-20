@@ -11,11 +11,13 @@ class Employee {
     
     
     public:
+    // setter
     void setId(int id);
     void setName(string name);
     void setDepartment(string department);
     void setRole(string role);
-    
+
+   // Getter
     int getId();
     string getName();
     string getDepartment();
